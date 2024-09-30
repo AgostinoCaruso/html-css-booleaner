@@ -9,11 +9,12 @@ header{
     background-color: #4EA0FF;
     background-image: url("../img/pattern.png");
     background-size: contain;
-    background-size: 35%;
+    background-size: 22%;
 }
 main{
     text-align: left;
 }
+
 h1{
     font-size: 40px;
 }
@@ -34,13 +35,25 @@ h1{
 .grey-font-color{
     color: #858585;
 }
+.white-font-color{
+    color: white;
+}
 .highlighted-yellow-text{
     background-color: #FFFF00;
 }
 .photo-footer-00{
+    width: 100%;
+    height: 200px;
     background-image: url("../img/monitor.jpg");
-    background-size: 100%;
-    width: 100px;
-    height: 100px;
-    background-size: contain;
+    background-repeat: no-repeat;
+}
+.photo-footer-01{
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/graph.jpg");
+    background-repeat: no-repeat;
+}
+.allign-text-photo{
+    font-size: 25px;
+    color: white;
 }
