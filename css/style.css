@@ -1,5 +1,7 @@
 *{
-    margin: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
     padding: 1;
     box-sizing: border-box;
 }
@@ -8,24 +10,45 @@
 header{
     background-color: #4EA0FF;
     background-image: url("../img/pattern.png");
-    background-size: contain;
-    background-size: 22%;
+    background-repeat: repeat-x;
+    background-size: 37%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0px;
 }
 main{
     text-align: left;
-    margin: 10px;
+    margin-left: 10px;
 }
 footer{
     margin: 10px;
 }
 h1{
-    font-size: 40px;
+    font-size: 37px;
+}
+table{
+    text-align: left;
+    width: 900px;
+    height: 100px;
+    margin: 0px;
+}
+/* ID */
+#image-tim{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* CLASS */
+.table-class-odd{
+    background-color: #B1E5F2;
+}
+.table-class-head{
+    background-color: #20A9E5;
+    color: white;
 }
 
-/* CLASS */
 .logo{
-    width: 250px;
-    height: 100px;
+    width: 220px;
+    height: 80px;
     object-position: 0px 15px;
 }
 
