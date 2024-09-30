@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TAG */
+header{
+    background-color: aqua;
+    height: 100px;
+}
+
+/* CLASS */
+/* size,position */
+.logo{
+    width: 150px;
+    height: 75px;
+}
+.pettern{
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat-x;
+}
