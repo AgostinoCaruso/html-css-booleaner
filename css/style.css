@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: auto;
     padding: 1;
     box-sizing: border-box;
 }
@@ -8,19 +8,28 @@
 header{
     background-image: url("../img/pattern.png");
     background-size: contain;
-    background-size: 38%;
+    background-size: 20%;
     background-color: aqua;
     height: 100px;
 }
 
-.titlefontsize{
-    font-size: 50;
-}
 
 /* CLASS */
 .logo{
-    background-position: bottom;
-    width: 150px;
-    height: 75px;
+    width: 250px;
+    height: 100px;
+    object-position: 0px 15px;
 }
 
+.title-font-size{
+    font-size: 500;
+}
+.blue-font-color{
+    color: blue;
+}
+.grey-font-color{
+    color: grey;
+}
+.highlighted-yellow-text{
+    background-color: yellow;
+}
