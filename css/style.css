@@ -32,6 +32,7 @@ h1{
 .title-font-size{
     font-size: 500;
 }
+/* font color */
 .blue-font-color{
     color: #3FB5E9;
 }
@@ -44,6 +45,7 @@ h1{
 .highlighted-yellow-text{
     background-color: #FFFF00;
 }
+/* photo footer */
 .photo-footer-00{
     width: 100%;
     height: 200px;
@@ -62,6 +64,7 @@ h1{
     font-size: 25px;
     color: white;
 }
+/* font roboto */
 .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -80,5 +83,6 @@ h1{
   }
 .just-roboto{
     font-family: "Roboto", sans-serif;
-
+    font-style: normal;
+    color: #858585;
 }
