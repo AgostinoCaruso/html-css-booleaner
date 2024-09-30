@@ -6,11 +6,13 @@
 
 /* TAG */
 header{
+    background-color: #4EA0FF;
     background-image: url("../img/pattern.png");
     background-size: contain;
-    background-size: 20%;
-    background-color: #4EA0FF;
-    height: 100px;
+    background-size: 35%;
+}
+main{
+    text-align: left;
 }
 h1{
     font-size: 40px;
@@ -34,4 +36,11 @@ h1{
 }
 .highlighted-yellow-text{
     background-color: #FFFF00;
+}
+.photo-footer-00{
+    background-image: url("../img/monitor.jpg");
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
 }
