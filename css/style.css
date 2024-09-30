@@ -11,7 +11,7 @@ header{
     background-color: #4EA0FF;
     background-image: url("../img/pattern.png");
     background-repeat: repeat-x;
-    background-size: 37%;
+    background-size: 20%;
     margin-left: auto;
     margin-right: auto;
     margin-left: 0px;
@@ -19,6 +19,7 @@ header{
 main{
     text-align: left;
     margin-left: 10px;
+    margin-right: auto;
 }
 footer{
     margin: 10px;
@@ -28,9 +29,10 @@ h1{
 }
 table{
     text-align: left;
-    width: 900px;
+    width: 1000px;
     height: 100px;
     margin: 0px;
+    border-collapse: collapse;
 }
 /* ID */
 #image-tim{
