@@ -1,22 +1,26 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 1;
     box-sizing: border-box;
 }
 
 /* TAG */
 header{
+    background-image: url("../img/pattern.png");
+    background-size: contain;
+    background-size: 38%;
     background-color: aqua;
     height: 100px;
 }
 
+.titlefontsize{
+    font-size: 50;
+}
+
 /* CLASS */
-/* size,position */
 .logo{
+    background-position: bottom;
     width: 150px;
     height: 75px;
 }
-.pettern{
-    background-image: url("../img/pattern.png");
-    background-repeat: repeat-x;
-}
+
