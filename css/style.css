@@ -13,8 +13,11 @@ header{
 }
 main{
     text-align: left;
+    margin: 10px;
 }
-
+footer{
+    margin: 10px;
+}
 h1{
     font-size: 40px;
 }
