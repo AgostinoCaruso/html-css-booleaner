@@ -49,14 +49,36 @@ h1{
     height: 200px;
     background-image: url("../img/monitor.jpg");
     background-repeat: no-repeat;
+    font-family: "Roboto", sans-serif;
 }
 .photo-footer-01{
     width: 100%;
     height: 200px;
     background-image: url("../img/graph.jpg");
     background-repeat: no-repeat;
+    font-family: "Roboto", sans-serif;
 }
 .allign-text-photo{
     font-size: 25px;
     color: white;
+}
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+  }
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+.just-roboto{
+    font-family: "Roboto", sans-serif;
+
 }
